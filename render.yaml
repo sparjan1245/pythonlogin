@@ -2,5 +2,4 @@ services:
   - type: web
     name: user-api
     env: python
-    buildCommand: ""
     startCommand: gunicorn app:app
